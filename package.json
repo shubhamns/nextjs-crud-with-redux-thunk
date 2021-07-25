@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-crud-app",
+  "name": "nextjs-crud-with-redux-thunk",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
     "next": "11.0.1",
+    "next-redux-wrapper": "^7.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "react-toastify": "^7.0.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "eslint": "7.31.0",
