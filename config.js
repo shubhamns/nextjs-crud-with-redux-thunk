@@ -1,6 +1,6 @@
 const baseURL =
   process.env.NODE_ENV === "development"
-    ? "https://node-express-app-api.herokuapp.com" // development api
-    : "https://node-express-app-api.herokuapp.com"; // production api
+    ? REACT_APP_API_URL  // development api
+    : REACT_APP_API_URL; // production api
 
 export { baseURL };
