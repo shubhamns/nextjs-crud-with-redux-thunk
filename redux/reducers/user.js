@@ -53,8 +53,8 @@ export function user(state = initialState, action) {
       };
     case GET_USER_FAILURE:
       return {
-        loading: false,
         ...state,
+        loading: false,
       };
 
     case GET_USER_BYID_REQUEST:
